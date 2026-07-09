@@ -9,7 +9,7 @@
 
 ---
 
-## 📋 О проекте
+##  О проекте
 
 **NovaBank** — условный цифровой банк, который хочет заменить визит в отделение полностью дистанционным оформлением потребительского кредита. Проект описывает бизнес-требования, функциональные и нефункциональные требования, UML/BPMN-диаграммы, схему базы данных, REST API и аналитику данных для такой системы.
 
@@ -21,7 +21,7 @@
 
 ---
 
-## 🧰 Стек технологий (референсный, для реализации)
+##  Стек технологий (референсный, для реализации)
 
 | Слой | Технология |
 |---|---|
@@ -34,7 +34,7 @@
 
 ---
 
-## 🏗️ Архитектура (укрупнённо)
+##  Архитектура (укрупнённо)
 
 ```mermaid
 flowchart LR
@@ -50,7 +50,7 @@ flowchart LR
 
 ---
 
-## 🔄 BPMN процесса оформления кредита
+##  BPMN процесса оформления кредита
 
 Полная версия — [`diagrams/BPMN.drawio`](./diagrams/BPMN.drawio) (открывается в [app.diagrams.net](https://app.diagrams.net)).
 
@@ -74,7 +74,7 @@ flowchart TD
 
 ---
 
-## 🗂️ Диаграмма классов данных (ER)
+##  Диаграмма классов данных (ER)
 
 Полная версия — [`diagrams/ER.drawio`](./diagrams/ER.drawio).
 
@@ -131,7 +131,7 @@ erDiagram
 
 ---
 
-## 🔌 REST API (кратко)
+##  REST API (кратко)
 
 Полная спецификация — [`api/openapi.yaml`](./api/openapi.yaml), примеры запросов — [`api/examples.md`](./api/examples.md).
 
@@ -157,7 +157,7 @@ erDiagram
 
 ---
 
-## 🗄️ База данных
+##  База данных
 
 Схема — [`database/schema.sql`](./database/schema.sql), тестовые данные — [`database/sample_data.sql`](./database/sample_data.sql), аналитические запросы — [`database/analytical_queries.sql`](./database/analytical_queries.sql).
 
@@ -171,13 +171,13 @@ erDiagram
 
 ---
 
-## 📊 Аналитика данных
+##  Аналитика данных
 
 [`analytics/analysis.ipynb`](./analytics/analysis.ipynb) — разведочный анализ на синтетическом датасете [`analytics/loan_dataset.csv`](./analytics/loan_dataset.csv) (113 заявок, 120 клиентов): воронка статусов, распределение скорингового балла, анализ сумм/сроков кредитов, возрастной анализ заёмщиков, анализ просрочек.
 
 ---
 
-## 📁 Структура репозитория
+##  Структура репозитория
 
 ```
 Bank-Loan-System/
@@ -218,7 +218,7 @@ Bank-Loan-System/
 
 ---
 
-## 🚀 Как запустить проект
+##  Как запустить проект
 
 ### База данных
 ```bash
@@ -246,7 +246,7 @@ jupyter notebook analysis.ipynb
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [x] BRD, FR, NFR, User Stories, Use Cases, Acceptance Criteria
 - [x] BPMN / UML Use Case / Sequence / Activity / ER диаграммы
@@ -260,6 +260,6 @@ jupyter notebook analysis.ipynb
 
 ---
 
-## 📄 Лицензия
+##  Лицензия
 
 MIT License — учебный проект, создан в образовательных целях.
