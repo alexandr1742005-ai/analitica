@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagram" id="d1">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="boundary" value="Система онлайн-оформления кредита" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;verticalAlign=top;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="260" y="20" width="700" height="700" as="geometry"/></mxCell>
+<mxCell id="actor_client" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1"><mxGeometry x="40" y="300" width="60" height="100" as="geometry"/></mxCell>
+<mxCell id="actor_operator" value="Оператор
+банка" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1"><mxGeometry x="1020" y="120" width="60" height="100" as="geometry"/></mxCell>
+<mxCell id="actor_bki" value="Условное
+БКИ" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1"><mxGeometry x="1020" y="400" width="60" height="100" as="geometry"/></mxCell>
+<mxCell id="uc_register" value="Зарегистрироваться" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="boundary"><mxGeometry x="320" y="60" width="220" height="60" as="geometry"/></mxCell>
+<mxCell id="uc_login" value="Войти в систему" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="boundary"><mxGeometry x="320" y="140" width="220" height="60" as="geometry"/></mxCell>
+<mxCell id="uc_identify" value="Пройти идентификацию" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="boundary"><mxGeometry x="320" y="220" width="220" height="60" as="geometry"/></mxCell>
+<mxCell id="uc_apply" value="Подать заявку
+на кредит" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="boundary"><mxGeometry x="320" y="300" width="220" height="60" as="geometry"/></mxCell>
+<mxCell id="uc_upload" value="Загрузить документы" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="boundary"><mxGeometry x="320" y="380" width="220" height="60" as="geometry"/></mxCell>
+<mxCell id="uc_status" value="Просмотреть статус
+заявки/кредита" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="boundary"><mxGeometry x="320" y="460" width="220" height="60" as="geometry"/></mxCell>
+<mxCell id="uc_sign" value="Подписать договор" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="boundary"><mxGeometry x="320" y="540" width="220" height="60" as="geometry"/></mxCell>
+<mxCell id="uc_pay_history" value="Просмотреть график
+платежей" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="boundary"><mxGeometry x="320" y="620" width="220" height="60" as="geometry"/></mxCell>
+<mxCell id="uc_scoring" value="Выполнить
+автоматический скоринг" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="boundary"><mxGeometry x="700" y="220" width="220" height="60" as="geometry"/></mxCell>
+<mxCell id="uc_manual_review" value="Рассмотреть заявку
+вручную" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="boundary"><mxGeometry x="700" y="380" width="220" height="60" as="geometry"/></mxCell>
+<mxCell id="uc_provide_history" value="Предоставить
+кредитную историю" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="boundary"><mxGeometry x="700" y="460" width="220" height="60" as="geometry"/></mxCell>
+<mxCell id="e_uc_register" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="actor_client" target="uc_register"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e_uc_login" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="actor_client" target="uc_login"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e_uc_identify" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="actor_client" target="uc_identify"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e_uc_apply" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="actor_client" target="uc_apply"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e_uc_upload" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="actor_client" target="uc_upload"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e_uc_status" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="actor_client" target="uc_status"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e_uc_sign" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="actor_client" target="uc_sign"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e_uc_pay_history" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="actor_client" target="uc_pay_history"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e_op1" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="actor_operator" target="uc_manual_review"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e_bki1" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="actor_bki" target="uc_provide_history"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e_inc1" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;dashed=1;html=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="uc_apply" target="uc_scoring"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e_inc2" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;dashed=1;html=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="uc_scoring" target="uc_provide_history"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e_ext1" value="&lt;&lt;extend&gt;&gt;" style="endArrow=open;dashed=1;html=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="uc_manual_review" target="uc_scoring"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
